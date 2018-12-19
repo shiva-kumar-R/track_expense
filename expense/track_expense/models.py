@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-class expense(models.Model):
+class Expense(models.Model):
     expense_name = models.CharField(max_length=30)
     price = models.FloatField()
     expense_image = models.FileField()
