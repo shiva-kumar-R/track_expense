@@ -21,6 +21,7 @@ from django.conf.urls.static import static
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('track_expense.urls')),
+    path('', include('frontend.urls')),
 ]
 
 if settings.DEBUG:
